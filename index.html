@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tours a estadios de fútbol argentinos para angloparlantes. Guías bilingües, grupos pequeños y acceso seguro.">
+    <title>Viajecito | Stadium Tours</title>
+    <!--prueba de cambios-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <div class="menu container">
+            <a href="#inicio" class="logo">Viajecito</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="Abrir menú de navegación">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#propiedades">Propiedades</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <p class="eyebrow">Tours bilingües de fútbol</p>
+                <h1>Viví los estadios argentinos en inglés</h1>
+                <p>
+                    Recorridos guiados en inglés por los templos del fútbol argentino.
+                    Vestuarios, plateas, museo y barrios icónicos, con guías locales
+                    de inglés avanzado. Grupos pequeños y opciones privadas.
+                </p>
+                <div class="cta-group">
+                    <a href="#contacto" class="btn-1">Reservar ahora</a>
+                    <a href="#tours" class="btn-ghost">Ver tours</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="direction container">
+        <p>CABA • Guías bilingües</p>
+        <p>hello@viajecito.com</p>
+        <p>+54 11 2166-2059</p>
+    </section>
+
+    <section class="about container" id="nosotros">
+        <div class="about-img">
+            <img src="images/i1.jpg" alt="Guía mostrando arquitectura en Buenos Aires" loading="lazy">
+        </div>
+        <div class="about-txt">
+            <h2>Quiénes somos</h2>
+            <p>
+                Somos hermanos y guías locales. Diseñamos tours en inglés avanzado por
+                los estadios más emblemáticos: historia, hinchadas, barrios y anécdotas
+                de cancha, con logística simple y segura.
+            </p>
+            <div class="about-tags">
+                <span>Inglés avanzado</span>
+                <span>Grupos reducidos</span>
+                <span>Accesos y tickets</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="information container" aria-label="Datos clave">
+        <div class="information-1">
+            <h3>4.9</h3>
+            <p>Promedio en reseñas</p>
+        </div>
+        <div class="information-1">
+            <h3>5</h3>
+            <p>Tours curados</p>
+        </div>
+        <div class="information-1">
+            <h3>12</h3>
+            <p>Personas máx. por grupo</p>
+        </div>
+        <div class="information-1">
+            <h3>2</h3>
+            <p>Guías bilingües</p>
+        </div>
+    </section>
+
+    <section class="services container" id="servicios">
+        <div class="section-head">
+            <p class="eyebrow">Cómo funciona</p>
+            <h2>Tours simples de reservar</h2>
+            <p>Elegís el estadio, confirmás horario y recibís instrucciones claras (punto de encuentro, qué llevar, seguridad).</p>
+        </div>
+        <div class="service-grid">
+            <article class="service-card">
+                <h3>1. Elegí el estadio</h3>
+                <p>Boca, River, Racing, Independiente o San Lorenzo. Incluimos barrio y museo.</p>
+            </article>
+            <article class="service-card">
+                <h3>2. Reserva en inglés</h3>
+                <p>Definí fecha y hora. Chat claro en inglés para dudas sobre tickets y accesos.</p>
+            </article>
+            <article class="service-card">
+                <h3>3. Día de partido o museo</h3>
+                <p>Opción matchday (si hay disponibilidad) o tour de museo + plateas, siempre con guía bilingüe.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="properties" id="tours">
+        <div class="container section-head">
+            <p class="eyebrow">Nuestros tours</p>
+            <h2>5 estadios, un solo clic</h2>
+            <p>Las imágenes son botones: tocá para reservar o pedir más info en inglés.</p>
+        </div>
+        <div class="tour-grid">
+            <button class="tour-card" type="button" aria-label="Boca Juniors stadium tour" style="background-image: url('images/i2.jpg');">
+                <div class="tour-body">
+                    <span class="badge">La Bombonera</span>
+                    <h3>Barrio + museo + platea</h3>
+                    <p>2.5 h • Caminito & estadio • Guía en inglés</p>
+                    <span class="tour-cta">Book tour</span>
+                </div>
+            </button>
+            <button class="tour-card" type="button" aria-label="River Plate stadium tour" style="background-image: url('images/i3.jpg');">
+                <div class="tour-body">
+                    <span class="badge">Monumental</span>
+                    <h3>Museo + campo de juego</h3>
+                    <p>2 h • Belgrano • Opcional entrenamiento si abre</p>
+                    <span class="tour-cta">Book tour</span>
+                </div>
+            </button>
+            <button class="tour-card" type="button" aria-label="Racing stadium tour" style="background-image: url('images/i4.jpeg');">
+                <div class="tour-body">
+                    <span class="badge">Racing</span>
+                    <h3>El Cilindro + Avellaneda</h3>
+                    <p>2 h • Murales e historia • Inglés fluido</p>
+                    <span class="tour-cta">Book tour</span>
+                </div>
+            </button>
+            <button class="tour-card" type="button" aria-label="Independiente stadium tour" style="background-image: url('images/i5.jpg');">
+                <div class="tour-body">
+                    <span class="badge">Independiente</span>
+                    <h3>Libertadores de América</h3>
+                    <p>2 h • Museo + plateas • Relatos de copas</p>
+                    <span class="tour-cta">Book tour</span>
+                </div>
+            </button>
+            <button class="tour-card" type="button" aria-label="San Lorenzo stadium tour" style="background-image: url('images/i6.jpeg');">
+                <div class="tour-body">
+                    <span class="badge">San Lorenzo</span>
+                    <h3>Nuevo Gasómetro</h3>
+                    <p>2 h • Barrio + tribunas • Guía bilingüe</p>
+                    <span class="tour-cta">Book tour</span>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonios">
+        <div class="container section-head">
+            <p class="eyebrow">Testimonios</p>
+            <h2>Lo que dicen nuestros clientes</h2>
+        </div>
+        <div class="container testimonial-grid">
+            <article class="testimonial-card">
+                <p>“Vendimos en 30 días, con fotos increíbles y visitas ordenadas. Nos ahorraron tiempo y preocupaciones.”</p>
+                <span class="testimonial-name">Alex & Kim • Chicago</span>
+            </article>
+            <article class="testimonial-card">
+                <p>“Clear English, great pacing and safe spots. We learned a ton and ate amazing food.”</p>
+                <span class="testimonial-name">Sarah • London</span>
+            </article>
+            <article class="testimonial-card">
+                <p>“Private tour felt personalized. They adapted to our kids and answered every question.”</p>
+                <span class="testimonial-name">Mark & family • New York</span>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacto">
+        <div class="footer-content container">
+            <div class="footer-form">
+                <p class="eyebrow">Contacto</p>
+                <h2>Reservá tu tour</h2>
+                <form>
+                    <input class="campo" type="text" name="nombre" placeholder="Nombre" required>
+                    <input class="campo" type="email" name="email" placeholder="Correo" required>
+                    <textarea class="campo" name="mensaje" rows="5" placeholder="Fecha, cantidad de personas e idioma" required></textarea>
+                    <input class="btn-2" type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <div class="footer-text">
+                <h3>+54 9 11 2166-2059</h3>
+                <p>hello@viajecito.com</p>
+                <p>@viajecito.tours</p>
+                <p>CABA • Grupos pequeños</p>
+                <a class="btn-ghost inline" href="https://wa.me/5491121662059" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="footer-2">
+            <p>Tours claros, bilingües y seguros para que vivas Buenos Aires al máximo.</p>
+        </div>
+    </footer>
+    <script type="module" src="java.js"></script>
+</body>
+</html>     
